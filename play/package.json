@@ -1,16 +1,19 @@
 {
-  "name": "@easy-ui/b",
+  "name": "play",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "vite": "^5.2.13"
+  },
   "dependencies": {
-    "@easy-ui/a": "workspace:^"
+    "@easy-ui/components": "workspace:^"
   }
 }
